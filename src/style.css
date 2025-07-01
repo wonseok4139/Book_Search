@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.search-box {
+  margin-bottom: 20px;
+}
+
+#book-list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5칸 */
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+#book-list li {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  background: #f9f9f9;
+}
+
+#book-list img {
+  max-width: 100px;
+  height: auto;
+  margin: 10px 0;
+}
